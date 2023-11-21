@@ -1,3 +1,4 @@
+/* login and sign up page style*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 * {
     margin: 0;
@@ -11,7 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("img/234990.jpg") no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/234990.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -113,3 +114,5 @@ body{
     text-decoration: underline;
 
 }
+
+/* end of login and sign up page style*/
