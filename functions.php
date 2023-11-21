@@ -10,7 +10,7 @@ function check_login($con){
             return mysqli_fetch_assoc($result);
         }
     }
-    //redirect to login apge
+    //redirect to login page
     header("Location: login.php");
     die;
 }

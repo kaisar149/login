@@ -22,7 +22,9 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     }
     else{
-        echo "Please enter valid information";
+        echo '<script type="text/javascript">
+           window.onload = function () { alert("Please enter valid information"); } 
+            </script>';
     }
 }
 
